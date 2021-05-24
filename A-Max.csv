@@ -1,0 +1,10 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C2,C1";"C_Disc_D3.4mm_W2.1mm_P2.50mm";2;"100nF";;;
+2;"Hole2,Hole1";"MountingHole_3.2mm_M3_DIN965";2;"MountingHole_3.2mm_M3_DIN965";;;
+3;"J1";"DSUB-23_Female_EdgeMount_P2.77mm";1;"DB23F";;;
+4;"J3";"DSUB-23_Male_EdgeMount_P2.77mm";1;"DB23M";;;
+5;"D1,D2";"D_DO-35_SOD27_P7.62mm_Horizontal";2;"1N4148";;;
+6;"R460";"R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal";1;"R1";;;
+7;"J2";"IDC-Header_2x10_P2.54mm_Vertical";1;"Conn_02x10_Odd_Even_MountingPin";;;
+8;"U2";"DIP-14_W7.62mm";1;"74LS393";;;
+9;"U1";"DIP-16_W7.62mm";1;"74LS139";;;

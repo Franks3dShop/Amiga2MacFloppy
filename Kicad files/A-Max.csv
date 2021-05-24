@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"Hole4,Hole3,Hole1,Hole2";"MountingHole_2.2mm_M2_Pad_TopBottom";4;"MountingHole_2.2mm_M2_Pad_TopBottom";;;
+2;"U2";"DIP-14_W7.62mm_Socket";1;"74LS393";;;
+3;"U1";"DIP-16_W7.62mm_Socket";1;"74LS139";;;
+4;"D2,D1";"D_DO-35_SOD27_P12.70mm_Horizontal";2;"DIODE";;;
+5;"C2,C1";"C_Disc_D8.0mm_W2.5mm_P5.00mm";2;"C";;;
+6;"J3";"DSUB-23_Male_EdgeMount_P2.77mm";1;"DB23M";;;
+7;"J2";"DSUB-19_Female_EdgeMount_P2.77mm";1;"DB19F";;;
+8;"J1";"DSUB-23_Female_EdgeMount_P2.77mm";1;"DB23F";;;
