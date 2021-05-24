@@ -385,7 +385,7 @@ F 3 "~" H 8450 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:DB23_Female_MountingHoles J1
+L A-Max-rescue:DB23_Female_MountingHoles-Connector J1
 U 1 1 608E5C01
 P 2150 4500
 F 0 "J1" H 2330 4502 50  0000 L CNN
@@ -474,7 +474,7 @@ F 4 "100pF" H 8700 1700 50  0001 C CNN "Value"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:DB23_Male_MountingHoles J3
+L A-Max-rescue:DB23_Male_MountingHoles-Connector J3
 U 1 1 608ED48F
 P 9500 4350
 F 0 "J3" H 9680 4264 50  0000 L CNN

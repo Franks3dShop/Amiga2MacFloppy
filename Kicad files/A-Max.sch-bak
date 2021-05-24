@@ -274,8 +274,6 @@ Wire Wire Line
 	4200 3850 3500 3850
 Wire Wire Line
 	3500 3850 3500 4350
-Text GLabel 4200 5050 0    50   Input ~ 0
-_SEL1
 Text GLabel 6850 4200 0    50   Input ~ 0
 DIR
 Text GLabel 6850 3900 0    50   Input ~ 0
@@ -741,8 +739,32 @@ Wire Wire Line
 Wire Wire Line
 	5400 3850 5500 3850
 Connection ~ 5400 3850
-Text GLabel 4200 4150 0    50   Input ~ 0
+Text GLabel 4200 5050 0    50   Input ~ 0
 _SEL1
-Text GLabel 4200 5350 0    50   Input ~ 0
-_SEL1
+Wire Wire Line
+	4200 4150 4200 4350
+$Comp
+L power:GND #PWR0101
+U 1 1 608E5ECD
+P 4200 4350
+F 0 "#PWR0101" H 4200 4100 50  0001 C CNN
+F 1 "GND" H 4205 4177 50  0000 C CNN
+F 2 "" H 4200 4350 50  0001 C CNN
+F 3 "" H 4200 4350 50  0001 C CNN
+	1    4200 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5350 4200 5600
+$Comp
+L power:GND #PWR0104
+U 1 1 608E6EB1
+P 4200 5600
+F 0 "#PWR0104" H 4200 5350 50  0001 C CNN
+F 1 "GND" H 4205 5427 50  0000 C CNN
+F 2 "" H 4200 5600 50  0001 C CNN
+F 3 "" H 4200 5600 50  0001 C CNN
+	1    4200 5600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
