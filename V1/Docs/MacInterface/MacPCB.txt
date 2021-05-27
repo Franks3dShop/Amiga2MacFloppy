@@ -1,8 +1,0 @@
-MacintoshFloppy Interface for the Amiga & AMax
-----------------------------------------------
-
-From the hardware patch (adapted) by Bjarne Rasmussen, I draw a PCB
-in Newio,.. also included NEWIO-files, IFF's of the componentside and
-of the solderside...
-
-Have fun...
