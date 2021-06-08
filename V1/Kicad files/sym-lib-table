@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name A-Max)(type Legacy)(uri ${KIPRJMOD}/A-Max.lib)(options "")(descr ""))
-)
