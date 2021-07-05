@@ -596,7 +596,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 2200 5350 2200
 $Comp
-L A-Max:DB19_Male_MountingHoles J5
+L Amiga2MacFloppy:DB19_Male_MountingHoles J5
 U 1 1 60A6B7CA
 P 2150 1600
 F 0 "J5" H 2330 1359 50  0000 L CNN

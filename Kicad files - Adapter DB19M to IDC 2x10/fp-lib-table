@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Amiga2MacFloppy)(type KiCad)(uri ${KIPRJMOD}/Amiga2MacFloppy.pretty)(options "")(descr ""))
+)

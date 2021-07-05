@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:\A-Max\A-Max MacInterface redone\Kicad files\A-Max.sch</source>
+    <date>02/05/2021 19:35:01</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>A-Max.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>74LS139</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf</datasheet>
+      <libsource lib="74xx" part="74LS139" description="Dual Decoder 1 of 4, Active low outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6089F82B</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>DB23M</value>
+      <footprint>A-Max:DSUB-23_Male_EdgeMount_P2.77mm</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="DB23_Male_MountingHoles" description="25-pin male D-SUB connector, Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608ED48F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Value">100pF</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6092A708</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>74LS393</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <datasheet>74xx\74LS393.pdf</datasheet>
+      <libsource lib="74xx" part="74LS393" description="Dual BCD 4-bit counter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608A314F</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6089F80A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6089E823</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608D3DC0</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x10_Odd_Even_MountingPin</value>
+      <footprint>Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_02x10_Odd_Even_MountingPin" description="Generic connectable mounting pin connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608B805B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>DB23F</value>
+      <footprint>A-Max:DSUB-23_Female_EdgeMount_P2.77mm</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="DB23_Female_MountingHoles" description="25-pin female D-SUB connector, Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608E5C01</tstamp>
+    </comp>
+    <comp ref="R460">
+      <value>R1</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6094BB23</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS139">
+      <description>Dual Decoder 1 of 4, Active low outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS139</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="A1" type="input"/>
+        <pin num="4" name="O0" type="output"/>
+        <pin num="5" name="O1" type="output"/>
+        <pin num="6" name="O2" type="output"/>
+        <pin num="7" name="O3" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="O3" type="output"/>
+        <pin num="10" name="O2" type="output"/>
+        <pin num="11" name="O1" type="output"/>
+        <pin num="12" name="O0" type="output"/>
+        <pin num="13" name="A1" type="input"/>
+        <pin num="14" name="A0" type="input"/>
+        <pin num="15" name="E" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS393">
+      <description>Dual BCD 4-bit counter</description>
+      <docs>74xx\74LS393.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS393</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CP" type="input"/>
+        <pin num="2" name="MR" type="input"/>
+        <pin num="3" name="Q0" type="output"/>
+        <pin num="4" name="Q1" type="output"/>
+        <pin num="5" name="Q2" type="output"/>
+        <pin num="6" name="Q3" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="Q3" type="output"/>
+        <pin num="9" name="Q2" type="output"/>
+        <pin num="10" name="Q1" type="output"/>
+        <pin num="11" name="Q0" type="output"/>
+        <pin num="12" name="MR" type="input"/>
+        <pin num="13" name="CP" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB23_Female_MountingHoles">
+      <description>25-pin female D-SUB connector, Mounting Hole</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Female*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB23_Female_MountingHoles</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB23_Male_MountingHoles">
+      <description>25-pin male D-SUB connector, Mounting Hole</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Male*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB23_Male_MountingHoles</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_02x10_Odd_Even_MountingPin">
+      <description>Generic connectable mounting pin connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x10_Odd_Even_MountingPin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="DIODE">
+      <description>Diode symbol for simulation only. Pin order incompatible with official kicad footprints</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="A" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\share\kicad\library/74xx.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic_MountingPin.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="WR">
+      <node ref="U2" pin="3"/>
+      <node ref="J2" pin="18"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="4"/>
+      <node ref="R460" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J3" pin="7"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J2" pin="7"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U1" pin="15"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="3" name="_SIDE">
+      <node ref="J1" pin="13"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J3" pin="13"/>
+    </net>
+    <net code="4" name="DIR">
+      <node ref="J1" pin="19"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J3" pin="19"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="5" name="Net-(J2-Pad20)">
+      <node ref="J2" pin="20"/>
+    </net>
+    <net code="6" name="_STEP">
+      <node ref="J3" pin="18"/>
+      <node ref="J1" pin="18"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(J2-Pad19)">
+      <node ref="J2" pin="19"/>
+    </net>
+    <net code="8" name="_WPRO">
+      <node ref="J3" pin="14"/>
+      <node ref="J1" pin="14"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad17)">
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="10" name="RD">
+      <node ref="J2" pin="16"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="11" name="+12V">
+      <node ref="J2" pin="13"/>
+      <node ref="J1" pin="23"/>
+      <node ref="J2" pin="15"/>
+      <node ref="J3" pin="23"/>
+    </net>
+    <net code="12" name="_TKO">
+      <node ref="J2" pin="12"/>
+      <node ref="J1" pin="15"/>
+      <node ref="J3" pin="15"/>
+    </net>
+    <net code="13" name="+5V">
+      <node ref="J3" pin="8"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J3" pin="12"/>
+      <node ref="J2" pin="11"/>
+      <node ref="U1" pin="16"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J1" pin="12"/>
+      <node ref="U2" pin="14"/>
+      <node ref="J1" pin="8"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="14" name="_DKWE">
+      <node ref="J3" pin="16"/>
+      <node ref="J2" pin="10"/>
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="15" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="16" name="_Enbl2">
+      <node ref="J2" pin="14"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="21" name="/_RDY">
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(D1-Pad2)">
+      <node ref="U1" pin="4"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="23" name="/_DKRD">
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J2-PadMP)">
+      <node ref="J2" pin="MP"/>
+    </net>
+    <net code="25" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="27" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="28" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="29" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="30" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="32" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="36" name="_SEL2">
+      <node ref="R460" pin="1"/>
+      <node ref="J3" pin="9"/>
+      <node ref="J1" pin="21"/>
+    </net>
+    <net code="37" name="Net-(J1-Pad20)">
+      <node ref="J1" pin="20"/>
+    </net>
+    <net code="38" name="/_DKRD">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="39" name="/_RDY">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="40" name="_CHNG">
+      <node ref="J3" pin="11"/>
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="41" name="_DRES">
+      <node ref="J1" pin="10"/>
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="42" name="/_RDY">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="43" name="_INDEX">
+      <node ref="J1" pin="22"/>
+      <node ref="J3" pin="22"/>
+    </net>
+    <net code="44" name="_SEL1">
+      <node ref="U1" pin="13"/>
+      <node ref="J3" pin="21"/>
+    </net>
+    <net code="45" name="_SEL3">
+      <node ref="J3" pin="20"/>
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="46" name="/_DKRD">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="47" name="_DKWD">
+      <node ref="J1" pin="17"/>
+      <node ref="J3" pin="17"/>
+      <node ref="U2" pin="1"/>
+    </net>
+  </nets>
+</export>

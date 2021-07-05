@@ -1,0 +1,26 @@
+Drill report for C:/Users/pom/Documents/GitHub/Amiga2MacFloppy/Kicad files/Amiga2MacFloppy.kicad_pcb
+Created on 05/07/2021 16:47:10
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Amiga2MacFloppy-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (16 holes)
+    T2  0.70mm  0.028"  (2 holes)
+    T3  0.80mm  0.031"  (38 holes)
+    T4  1.00mm  0.039"  (20 holes)
+
+    Total plated holes count 76
+
+
+Drill file 'Amiga2MacFloppy-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.20mm  0.126"  (2 holes)
+
+    Total unplated holes count 2

@@ -65,11 +65,11 @@ X GND 7 0 -500 200 U 50 50 3 0 W
 ENDDRAW
 ENDDEF
 #
-# Aimga2MacFloppy_DB19_Male_MountingHoles
+# Amiga2MacFloppy_DB19_Male_MountingHoles
 #
-DEF Aimga2MacFloppy_DB19_Male_MountingHoles J 0 40 Y N 1 F N
+DEF Amiga2MacFloppy_DB19_Male_MountingHoles J 0 40 Y N 1 F N
 F0 "J" 0 900 50 H V C CNN
-F1 "Aimga2MacFloppy_DB19_Male_MountingHoles" 0 800 50 H V C CNN
+F1 "Amiga2MacFloppy_DB19_Male_MountingHoles" 0 800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name Amiga2MacFloppy)(type Legacy)(uri "/Users/francoispominville/Documents/GitHub/Amiga2MacFloppy/Kicad files/Amiga2MacFloppy.lib")(options "")(descr ""))
-  (lib (name Amiga2MacFloppy-rescue)(type Legacy)(uri ${KIPRJMOD}/Amiga2MacFloppy-rescue.lib)(options "")(descr ""))
+  (lib (name Amiga2MacFloppy)(type Legacy)(uri ${KIPRJMOD}/Amiga2MacFloppy.lib)(options "")(descr ""))
 )

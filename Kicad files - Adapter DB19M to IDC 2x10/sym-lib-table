@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Amiga2MacFloppy)(type Legacy)(uri ${KIPRJMOD}/Amiga2MacFloppy.lib)(options "")(descr ""))
+)
