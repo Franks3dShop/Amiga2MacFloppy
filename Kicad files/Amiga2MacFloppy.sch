@@ -195,15 +195,11 @@ Connection ~ 8700 5150
 Wire Wire Line
 	8700 4950 8700 5150
 Wire Wire Line
-	8700 5700 8700 5600
-Wire Wire Line
 	8700 4350 9200 4350
 Wire Wire Line
 	8700 4550 9200 4550
 Wire Wire Line
 	9200 3450 8700 3450
-Text GLabel 9200 3650 0    50   Input ~ 0
-_INDEX
 Text GLabel 9200 3850 0    50   Input ~ 0
 _SEL1
 Text GLabel 9200 4250 0    50   Input ~ 0
@@ -252,7 +248,7 @@ Text GLabel 1850 5300 0    50   Input ~ 0
 _CHNG
 Text GLabel 1850 5100 0    50   Input ~ 0
 _DRES
-Text GLabel 8400 3850 0    50   Input ~ 0
+Text GLabel 9200 3950 0    50   Input ~ 0
 _SEL2
 Text GLabel 1850 5000 0    50   Input ~ 0
 _SEL2
@@ -349,24 +345,6 @@ _Enbl2
 Text GLabel 5550 2200 2    50   Input ~ 0
 _Enbl2
 Wire Wire Line
-	8450 4150 8450 5600
-Wire Wire Line
-	8450 5600 8700 5600
-Connection ~ 8700 5600
-Wire Wire Line
-	8700 5600 8700 5150
-Wire Wire Line
-	8400 3850 8450 3850
-Wire Wire Line
-	8450 3600 8800 3600
-Wire Wire Line
-	8800 3600 8800 3950
-Wire Wire Line
-	8800 3950 9200 3950
-Connection ~ 8450 3850
-Wire Wire Line
-	8450 3600 8450 3850
-Wire Wire Line
 	3500 2300 3500 2200
 Wire Wire Line
 	3500 2200 3600 2200
@@ -374,24 +352,13 @@ Connection ~ 3500 2300
 Wire Wire Line
 	3500 2300 3600 2300
 $Comp
-L Device:R R460
-U 1 1 6094BB23
-P 8450 4000
-F 0 "R460" H 8520 4046 50  0000 L CNN
-F 1 "R1" H 8520 3955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8380 4000 50  0001 C CNN
-F 3 "~" H 8450 4000 50  0001 C CNN
-	1    8450 4000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:DB23_Female_MountingHoles J1
 U 1 1 608E5C01
 P 2150 4500
 F 0 "J1" H 2330 4502 50  0000 L CNN
 F 1 "DB23F" H 2330 4411 50  0000 L CNN
 F 2 "Amiga2MacFloppy:DSUB-23_Female_EdgeMount_P2.77mm" H 2150 4500 50  0001 C CNN
-F 3 " ~" H 2150 4500 50  0001 C CNN
+F 3 "https://www.tindie.com/products/retronicdesign/db23-female-connector-for-amiga-video-cables/" H 2150 4500 50  0001 C CNN
 	1    2150 4500
 	1    0    0    -1  
 $EndComp
@@ -480,7 +447,7 @@ P 9500 4350
 F 0 "J3" H 9680 4264 50  0000 L CNN
 F 1 "DB23M" H 9680 4173 50  0000 L CNN
 F 2 "Amiga2MacFloppy:DSUB-23_Male_EdgeMount_P2.77mm" H 9500 4350 50  0001 C CNN
-F 3 " ~" H 9500 4350 50  0001 C CNN
+F 3 " https://www.elliottelectronicsupply.com/connectors/db23-male-db23m-solder-cup-connector.html" H 9500 4350 50  0001 C CNN
 	1    9500 4350
 	1    0    0    -1  
 $EndComp
@@ -516,7 +483,7 @@ _DKRD
 Text GLabel 1850 3500 0    50   Input ~ 0
 _DKRD
 $Comp
-L Connector_Generic_MountingPin:Conn_02x10_Odd_Even_MountingPin J2
+L Amiga2MacFloppy:Conn_02x10_Odd_Even J2
 U 1 1 608B805B
 P 3800 2000
 F 0 "J2" H 3850 2525 50  0000 C CNN
@@ -565,8 +532,6 @@ Text GLabel 4100 2400 2    50   Input ~ 0
 WR
 Text GLabel 4100 2200 2    50   Input ~ 0
 _ENABLE
-Text GLabel 4700 2500 2    50   Input ~ 0
-PWM
 Text GLabel 5350 1600 0    50   Input ~ 0
 PH0
 Text GLabel 5350 1700 0    50   Input ~ 0
@@ -595,119 +560,10 @@ Wire Wire Line
 	5350 2100 5550 2100
 Wire Wire Line
 	5550 2200 5350 2200
-$Comp
-L Amiga2MacFloppy:DB19_Male_MountingHoles J5
-U 1 1 60A6B7CA
-P 2150 1600
-F 0 "J5" H 2330 1359 50  0000 L CNN
-F 1 "DB19M" H 2330 1268 50  0000 L CNN
-F 2 "Amiga2MacFloppy:DSUB-19_Male_EdgeMount_P2.77mm" H 2150 1600 50  0001 C CNN
-F 3 " ~" H 2150 1600 50  0001 C CNN
-	1    2150 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 60A6F2DB
-P 1450 2800
-F 0 "#PWR0111" H 1450 2550 50  0001 C CNN
-F 1 "GND" H 1455 2627 50  0000 C CNN
-F 2 "" H 1450 2800 50  0001 C CNN
-F 3 "" H 1450 2800 50  0001 C CNN
-	1    1450 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0112
-U 1 1 60A6F2E1
-P 1250 1800
-F 0 "#PWR0112" H 1250 1650 50  0001 C CNN
-F 1 "+5V" H 1265 1973 50  0000 C CNN
-F 2 "" H 1250 1800 50  0001 C CNN
-F 3 "" H 1250 1800 50  0001 C CNN
-	1    1250 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 2800 1450 2800
-Wire Wire Line
-	1850 2600 1450 2600
-Wire Wire Line
-	1450 2600 1450 2800
-Connection ~ 1450 2800
-Wire Wire Line
-	1850 2400 1450 2400
-Wire Wire Line
-	1450 2400 1450 2600
-Connection ~ 1450 2600
-Wire Wire Line
-	1850 2200 1450 2200
-Wire Wire Line
-	1450 2200 1450 2400
-Connection ~ 1450 2400
-$Comp
-L power:-12V #PWR0117
-U 1 1 60A7F899
-P 1050 2000
-F 0 "#PWR0117" H 1050 2100 50  0001 C CNN
-F 1 "-12V" H 1065 2173 50  0000 C CNN
-F 2 "" H 1050 2000 50  0001 C CNN
-F 3 "" H 1050 2000 50  0001 C CNN
-	1    1050 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 2000 1050 2000
-Wire Wire Line
-	1850 1800 1250 1800
-Wire Wire Line
-	1850 1600 1450 1600
-$Comp
-L power:+12V #PWR0118
-U 1 1 60A6F2E7
-P 1450 1350
-F 0 "#PWR0118" H 1450 1200 50  0001 C CNN
-F 1 "+12V" H 1465 1523 50  0000 C CNN
-F 2 "" H 1450 1350 50  0001 C CNN
-F 3 "" H 1450 1350 50  0001 C CNN
-	1    1450 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 1400 1450 1400
-Wire Wire Line
-	1450 1400 1450 1350
-Wire Wire Line
-	1450 1600 1450 1400
-Connection ~ 1450 1400
-NoConn ~ 1850 1200
-Text GLabel 1850 1000 0    50   Input ~ 0
-PWM
-Text GLabel 1850 2700 0    50   Input ~ 0
-PH0
-Text GLabel 1850 2500 0    50   Input ~ 0
-PH1
-Text GLabel 1850 2300 0    50   Input ~ 0
-PH2
-Text GLabel 1850 2100 0    50   Input ~ 0
-PH3
-Text GLabel 1850 1900 0    50   Input ~ 0
-_WREQ
-Text GLabel 1850 1700 0    50   Input ~ 0
-SEL
-Text GLabel 1850 1500 0    50   Input ~ 0
-_ENABLE
-Text GLabel 1850 1300 0    50   Input ~ 0
-RD
-Text GLabel 1850 1100 0    50   Input ~ 0
-WR
 Wire Wire Line
 	4600 2350 4600 2500
 Wire Wire Line
-	4600 2500 4700 2500
-Wire Wire Line
 	4600 2500 4100 2500
-Connection ~ 4600 2500
 Wire Wire Line
 	3500 1800 3300 1800
 Wire Wire Line
@@ -767,4 +623,24 @@ F 3 "" H 4200 5600 50  0001 C CNN
 	1    4200 5600
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1850 4800
+NoConn ~ 3600 2400
+NoConn ~ 3600 2500
+NoConn ~ 5200 3950
+NoConn ~ 5200 4050
+NoConn ~ 5200 4150
+NoConn ~ 5200 5150
+NoConn ~ 5200 5250
+NoConn ~ 5200 5350
+NoConn ~ 7850 4000
+NoConn ~ 7850 4100
+NoConn ~ 7850 4200
+NoConn ~ 6850 5100
+NoConn ~ 6850 5400
+NoConn ~ 7850 5100
+NoConn ~ 7850 5200
+NoConn ~ 7850 5300
+NoConn ~ 7850 5400
+Wire Wire Line
+	8700 5150 8700 5700
 $EndSCHEMATC

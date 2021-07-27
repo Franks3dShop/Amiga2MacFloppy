@@ -1,5 +1,5 @@
 
-(rules PCB Aimga2MacFloppy
+(rules PCB Amiga2MacFloppy
   (snap_angle 
     fortyfive_degree
   )
@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1878)
+    (start_pass_no 1780)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -73,11 +73,9 @@
     )
   )
   (class "kicad_default"
-    "_INDEX" "_SEL1" "_SEL3" DIR "_DKWD" "_DKWE" "_CHNG" "_DRES"
-    "_SEL2" WR RD "Net-(J1-Pad20)" "Net-(J2-Pad19)" "Net-(J2-Pad17)" "Net-(J2-Pad9)" "Net-(U1-Pad7)"
-    "Net-(U1-Pad6)" "Net-(U1-Pad5)" "Net-(U1-Pad11)" "Net-(U1-Pad10)" "Net-(U1-Pad9)" "Net-(U2-Pad13)" "Net-(U2-Pad6)" "Net-(U2-Pad12)"
-    "Net-(U2-Pad5)" "Net-(U2-Pad11)" "Net-(U2-Pad4)" "Net-(U2-Pad10)" "Net-(U2-Pad9)" "Net-(U2-Pad8)" "_RDY" "_DKRD"
-    "_MTRXD" PWM PH0 SEL PH3 PH2 "_ENABLE" "Net-(D1-Pad1)"
+    "_SEL1" "_SEL3" DIR "_DKWD" "_DKWE" "_CHNG" "_DRES" "_SEL2"
+    WR RD "_RDY" "_DKRD" "_MTRXD" PH0 SEL PH3
+    PH2 "_ENABLE" "Net-(D1-Pad1)" +5V
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

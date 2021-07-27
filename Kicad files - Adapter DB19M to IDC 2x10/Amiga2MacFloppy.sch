@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR0105
+L power:GND #PWR06
 U 1 1 608B94A3
 P 3300 1850
-F 0 "#PWR0105" H 3300 1600 50  0001 C CNN
+F 0 "#PWR06" H 3300 1600 50  0001 C CNN
 F 1 "GND" H 3305 1677 50  0000 C CNN
 F 2 "" H 3300 1850 50  0001 C CNN
 F 3 "" H 3300 1850 50  0001 C CNN
@@ -36,10 +36,10 @@ Wire Wire Line
 	3500 1800 3500 1700
 Connection ~ 3500 1700
 $Comp
-L power:+5V #PWR0106
+L power:+5V #PWR05
 U 1 1 608C582C
 P 3150 1800
-F 0 "#PWR0106" H 3150 1650 50  0001 C CNN
+F 0 "#PWR05" H 3150 1650 50  0001 C CNN
 F 1 "+5V" H 3165 1973 50  0000 C CNN
 F 2 "" H 3150 1800 50  0001 C CNN
 F 3 "" H 3150 1800 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "" H 3150 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR0110
+L power:+12V #PWR04
 U 1 1 608D0C8A
 P 2950 2150
-F 0 "#PWR0110" H 2950 2000 50  0001 C CNN
+F 0 "#PWR04" H 2950 2000 50  0001 C CNN
 F 1 "+12V" H 2965 2323 50  0000 C CNN
 F 2 "" H 2950 2150 50  0001 C CNN
 F 3 "" H 2950 2150 50  0001 C CNN
@@ -83,7 +83,7 @@ Connection ~ 3500 2300
 Wire Wire Line
 	3500 2300 3600 2300
 $Comp
-L Connector_Generic_MountingPin:Conn_02x10_Odd_Even_MountingPin J2
+L Connector_Generic:Conn_02x10_Odd_Even J2
 U 1 1 608B805B
 P 3800 2000
 F 0 "J2" H 3850 2525 50  0000 C CNN
@@ -91,17 +91,6 @@ F 1 "Conn_02x10_Odd_Even_MountingPin" H 3850 2526 50  0001 C CNN
 F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 3800 2000 50  0001 C CNN
 F 3 "~" H 3800 2000 50  0001 C CNN
 	1    3800 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0107
-U 1 1 60A357C5
-P 4600 2350
-F 0 "#PWR0107" H 4600 2200 50  0001 C CNN
-F 1 "+5V" H 4615 2523 50  0000 C CNN
-F 2 "" H 4600 2350 50  0001 C CNN
-F 3 "" H 4600 2350 50  0001 C CNN
-	1    4600 2350
 	1    0    0    -1  
 $EndComp
 Text GLabel 5550 2000 2    50   Input ~ 0
@@ -132,7 +121,7 @@ Text GLabel 4100 2400 2    50   Input ~ 0
 WR
 Text GLabel 4100 2200 2    50   Input ~ 0
 _ENABLE
-Text GLabel 4700 2500 2    50   Input ~ 0
+Text GLabel 4100 2500 2    50   Input ~ 0
 PWM
 Text GLabel 5350 1600 0    50   Input ~ 0
 PH0
@@ -163,120 +152,104 @@ Wire Wire Line
 Wire Wire Line
 	5550 2200 5350 2200
 $Comp
-L Amiga2MacFloppy:DB19_Male_MountingHoles J5
-U 1 1 60A6B7CA
-P 2150 1600
-F 0 "J5" H 2330 1359 50  0000 L CNN
-F 1 "DB19M" H 2330 1268 50  0000 L CNN
-F 2 "Amiga2MacFloppy:DSUB-19_Male_EdgeMount_P2.77mm" H 2150 1600 50  0001 C CNN
-F 3 " ~" H 2150 1600 50  0001 C CNN
-	1    2150 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0111
+L power:GND #PWR03
 U 1 1 60A6F2DB
-P 1450 2800
-F 0 "#PWR0111" H 1450 2550 50  0001 C CNN
-F 1 "GND" H 1455 2627 50  0000 C CNN
-F 2 "" H 1450 2800 50  0001 C CNN
-F 3 "" H 1450 2800 50  0001 C CNN
-	1    1450 2800
+P 1200 1300
+F 0 "#PWR03" H 1200 1050 50  0001 C CNN
+F 1 "GND" H 1205 1127 50  0000 C CNN
+F 2 "" H 1200 1300 50  0001 C CNN
+F 3 "" H 1200 1300 50  0001 C CNN
+	1    1200 1300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR0112
-U 1 1 60A6F2E1
-P 1250 1800
-F 0 "#PWR0112" H 1250 1650 50  0001 C CNN
-F 1 "+5V" H 1265 1973 50  0000 C CNN
-F 2 "" H 1250 1800 50  0001 C CNN
-F 3 "" H 1250 1800 50  0001 C CNN
-	1    1250 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 2800 1450 2800
-Wire Wire Line
-	1850 2600 1450 2600
-Wire Wire Line
-	1450 2600 1450 2800
-Connection ~ 1450 2800
-Wire Wire Line
-	1850 2400 1450 2400
-Wire Wire Line
-	1450 2400 1450 2600
-Connection ~ 1450 2600
-Wire Wire Line
-	1850 2200 1450 2200
-Wire Wire Line
-	1450 2200 1450 2400
-Connection ~ 1450 2400
-$Comp
-L power:-12V #PWR0117
-U 1 1 60A7F899
-P 1050 2000
-F 0 "#PWR0117" H 1050 2100 50  0001 C CNN
-F 1 "-12V" H 1065 2173 50  0000 C CNN
-F 2 "" H 1050 2000 50  0001 C CNN
-F 3 "" H 1050 2000 50  0001 C CNN
-	1    1050 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 2000 1050 2000
-Wire Wire Line
-	1850 1800 1250 1800
-Wire Wire Line
-	1850 1600 1450 1600
-$Comp
-L power:+12V #PWR0118
-U 1 1 60A6F2E7
-P 1450 1350
-F 0 "#PWR0118" H 1450 1200 50  0001 C CNN
-F 1 "+12V" H 1465 1523 50  0000 C CNN
-F 2 "" H 1450 1350 50  0001 C CNN
-F 3 "" H 1450 1350 50  0001 C CNN
-	1    1450 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 1400 1450 1400
-Wire Wire Line
-	1450 1400 1450 1350
-Wire Wire Line
-	1450 1600 1450 1400
-Connection ~ 1450 1400
-NoConn ~ 1850 1200
-Text GLabel 1850 1000 0    50   Input ~ 0
-PWM
-Text GLabel 1850 2700 0    50   Input ~ 0
-PH0
-Text GLabel 1850 2500 0    50   Input ~ 0
-PH1
-Text GLabel 1850 2300 0    50   Input ~ 0
-PH2
-Text GLabel 1850 2100 0    50   Input ~ 0
-PH3
-Text GLabel 1850 1900 0    50   Input ~ 0
-_WREQ
-Text GLabel 1850 1700 0    50   Input ~ 0
-SEL
-Text GLabel 1850 1500 0    50   Input ~ 0
-_ENABLE
-Text GLabel 1850 1300 0    50   Input ~ 0
-RD
-Text GLabel 1850 1100 0    50   Input ~ 0
-WR
-Wire Wire Line
-	4600 2350 4600 2500
-Wire Wire Line
-	4600 2500 4700 2500
-Wire Wire Line
-	4600 2500 4100 2500
-Connection ~ 4600 2500
 Wire Wire Line
 	3500 1800 3300 1800
 Wire Wire Line
 	3300 1800 3300 1850
+$Comp
+L Amiga2MacFloppy:DB19_Female_MountingHoles J1
+U 1 1 610018E6
+P 2275 2300
+F 0 "J1" H 2455 2634 50  0000 L CNN
+F 1 "DB19F" H 2455 2543 50  0000 L CNN
+F 2 "Amiga2MacFloppy:DSUB-19_Female_EdgeMount_P2.77mm" H 2275 2300 50  0001 C CNN
+F 3 " ~" H 2275 2300 50  0001 C CNN
+	1    2275 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1975 1100 1500 1100
+Wire Wire Line
+	1500 1500 1975 1500
+Wire Wire Line
+	1500 1100 1500 1300
+Wire Wire Line
+	1500 1500 1500 1700
+Connection ~ 1500 1500
+Wire Wire Line
+	1975 1300 1500 1300
+Connection ~ 1500 1300
+Wire Wire Line
+	1500 1300 1500 1500
+Text GLabel 1975 1200 0    50   Input ~ 0
+PH0
+Text GLabel 1975 1400 0    50   Input ~ 0
+PH1
+Text GLabel 1975 1600 0    50   Input ~ 0
+PH2
+Wire Wire Line
+	1500 1700 1975 1700
+Text GLabel 1975 1800 0    50   Input ~ 0
+PH3
+Text GLabel 1975 2000 0    50   Input ~ 0
+_WREQ
+Text GLabel 1975 2200 0    50   Input ~ 0
+SEL
+Text GLabel 1975 2400 0    50   Input ~ 0
+_ENABLE
+Text GLabel 1975 2600 0    50   Input ~ 0
+RD
+Text GLabel 1975 2800 0    50   Input ~ 0
+WR
+$Comp
+L power:+12V #PWR01
+U 1 1 61015BA1
+P 925 2300
+F 0 "#PWR01" H 925 2150 50  0001 C CNN
+F 1 "+12V" H 940 2473 50  0000 C CNN
+F 2 "" H 925 2300 50  0001 C CNN
+F 3 "" H 925 2300 50  0001 C CNN
+	1    925  2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	925  2300 1550 2300
+Wire Wire Line
+	1975 2500 1550 2500
+Wire Wire Line
+	1550 2500 1550 2300
+Connection ~ 1550 2300
+Wire Wire Line
+	1550 2300 1975 2300
+$Comp
+L power:+5V #PWR02
+U 1 1 610190D8
+P 1150 2100
+F 0 "#PWR02" H 1150 1950 50  0001 C CNN
+F 1 "+5V" H 1165 2273 50  0000 C CNN
+F 2 "" H 1150 2100 50  0001 C CNN
+F 3 "" H 1150 2100 50  0001 C CNN
+	1    1150 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2100 1975 2100
+Wire Wire Line
+	1200 1300 1500 1300
+NoConn ~ 1975 2700
+NoConn ~ 1975 1900
+Text GLabel 1975 2900 0    50   Input ~ 0
+PWM
+NoConn ~ 3600 2400
+NoConn ~ 3600 2500
 $EndSCHEMATC

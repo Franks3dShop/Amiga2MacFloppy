@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 242)
+    (start_pass_no 216)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -74,7 +74,7 @@
   )
   (class "kicad_default"
     DIR "_DKWE" WR RD PWM PH0 SEL PH3
-    PH2 "_ENABLE"
+    PH2 "_ENABLE" +5V
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

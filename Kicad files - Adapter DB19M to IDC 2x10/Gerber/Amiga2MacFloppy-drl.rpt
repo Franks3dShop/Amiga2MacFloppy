@@ -1,5 +1,5 @@
 Drill report for C:\Users\pom\Documents\GitHub\Amiga2MacFloppy\Kicad files - Adapter DB19M to IDC 2x10\Amiga2MacFloppy.kicad_pcb
-Created on 05/07/2021 16:45:05
+Created on 27/07/2021 13:59:03
 
 Copper Layer Stackup:
     =============================================================
@@ -10,10 +10,10 @@ Copper Layer Stackup:
 Drill file 'Amiga2MacFloppy-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.40mm  0.016"  (6 holes)
+    T1  0.40mm  0.016"  (1 hole)
     T2  1.00mm  0.039"  (20 holes)
 
-    Total plated holes count 26
+    Total plated holes count 21
 
 
 Drill file 'Amiga2MacFloppy-NPTH.drl' contains

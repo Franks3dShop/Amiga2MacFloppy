@@ -1,25 +1,31 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Conn_02x10_Odd_Even
+D Generic double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP DB19_Female_MountingHoles
-D 25-pin female D-SUB connector, Mounting Hole
+D 19-pin female D-SUB connector
 K female D-SUB connector
 F  ~
 $ENDCMP
 #
 $CMP DB19_Male_MountingHoles
-D 25-pin male D-SUB connector, Mounting Hole
+D 19-pin male D-SUB connector
 K male D-SUB connector
 F  ~
 $ENDCMP
 #
 $CMP DB23_Female_MountingHoles
-D 25-pin female D-SUB connector, Mounting Hole
+D 23-pin female D-SUB connector
 K female D-SUB connector
 F  ~
 $ENDCMP
 #
 $CMP DB23_Male_MountingHoles
-D 25-pin male D-SUB connector, Mounting Hole
+D 23-pin male D-SUB connector
 K male D-SUB connector
 F  ~
 $ENDCMP
