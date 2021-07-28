@@ -33,6 +33,9 @@
     )
   )
   (placement
+    (component "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen"
+      (place REF** 138268 -93193 back 0 (PN "OSHW-Logo2_7.3x6mm_SilkScreen"))
+    )
     (component "Amiga2MacFloppy:DSUB-23_Male_EdgeMount_P2.77mm"
       (place J3 158468 -105193 front 90 (PN DB23M))
     )
@@ -64,6 +67,8 @@
     )
   )
   (library
+    (image "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen"
+    )
     (image "Amiga2MacFloppy:DSUB-23_Male_EdgeMount_P2.77mm"
       (outline (path signal 50  -25026 -1990  25400 -2032))
       (outline (path signal 120  -16279.3 2000  -16279.3 -1740))
@@ -706,13 +711,72 @@
     (net +5V
       (pins J3-12 J1-12 C1-1 C2-1 J2-20 J2-11 U2-14 U1-16)
     )
+    (net _INDEX
+      (pins J3-22 J1-22)
+    )
+    (net "Net-(J1-Pad20)"
+      (pins J1-20)
+    )
+    (net "Net-(J2-Pad19)"
+      (pins J2-19)
+    )
+    (net "Net-(J2-Pad17)"
+      (pins J2-17)
+    )
+    (net "Net-(J2-Pad9)"
+      (pins J2-9)
+    )
+    (net "Net-(U1-Pad7)"
+      (pins U1-7)
+    )
+    (net "Net-(U1-Pad6)"
+      (pins U1-6)
+    )
+    (net "Net-(U1-Pad5)"
+      (pins U1-5)
+    )
+    (net "Net-(U1-Pad11)"
+      (pins U1-11)
+    )
+    (net "Net-(U1-Pad10)"
+      (pins U1-10)
+    )
+    (net "Net-(U1-Pad9)"
+      (pins U1-9)
+    )
+    (net "Net-(U2-Pad13)"
+      (pins U2-13)
+    )
+    (net "Net-(U2-Pad6)"
+      (pins U2-6)
+    )
+    (net "Net-(U2-Pad12)"
+      (pins U2-12)
+    )
+    (net "Net-(U2-Pad5)"
+      (pins U2-5)
+    )
+    (net "Net-(U2-Pad11)"
+      (pins U2-11)
+    )
+    (net "Net-(U2-Pad4)"
+      (pins U2-4)
+    )
+    (net "Net-(U2-Pad10)"
+      (pins U2-10)
+    )
+    (net "Net-(U2-Pad9)"
+      (pins U2-9)
+    )
+    (net "Net-(U2-Pad8)"
+      (pins U2-8)
+    )
     (class kicad_default "" +5V DIR "Net-(D1-Pad1)" "Net-(J1-Pad20)" "Net-(J2-Pad17)"
-      "Net-(J2-Pad19)" "Net-(J2-Pad9)" "Net-(J3-Pad22)" "Net-(U1-Pad10)" "Net-(U1-Pad11)"
-      "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad9)" "Net-(U2-Pad10)"
-      "Net-(U2-Pad11)" "Net-(U2-Pad12)" "Net-(U2-Pad13)" "Net-(U2-Pad4)" "Net-(U2-Pad5)"
-      "Net-(U2-Pad6)" "Net-(U2-Pad8)" "Net-(U2-Pad9)" PH0 PH2 PH3 RD SEL WR
-      _CHNG _DKRD _DKWD _DKWE _DRES _ENABLE _INDEX _MTRXD _RDY _SEL1 _SEL2
-      _SEL3
+      "Net-(J2-Pad19)" "Net-(J2-Pad9)" "Net-(U1-Pad10)" "Net-(U1-Pad11)" "Net-(U1-Pad5)"
+      "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad9)" "Net-(U2-Pad10)" "Net-(U2-Pad11)"
+      "Net-(U2-Pad12)" "Net-(U2-Pad13)" "Net-(U2-Pad4)" "Net-(U2-Pad5)" "Net-(U2-Pad6)"
+      "Net-(U2-Pad8)" "Net-(U2-Pad9)" PH0 PH2 PH3 RD SEL WR _CHNG _DKRD _DKWD
+      _DKWE _DRES _ENABLE _INDEX _MTRXD _RDY _SEL1 _SEL2 _SEL3
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

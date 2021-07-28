@@ -195,15 +195,11 @@ Connection ~ 8700 5150
 Wire Wire Line
 	8700 4950 8700 5150
 Wire Wire Line
-	8700 5700 8700 5600
-Wire Wire Line
 	8700 4350 9200 4350
 Wire Wire Line
 	8700 4550 9200 4550
 Wire Wire Line
 	9200 3450 8700 3450
-Text GLabel 9200 3650 0    50   Input ~ 0
-_INDEX
 Text GLabel 9200 3850 0    50   Input ~ 0
 _SEL1
 Text GLabel 9200 4250 0    50   Input ~ 0
@@ -252,7 +248,7 @@ Text GLabel 1850 5300 0    50   Input ~ 0
 _CHNG
 Text GLabel 1850 5100 0    50   Input ~ 0
 _DRES
-Text GLabel 8400 3850 0    50   Input ~ 0
+Text GLabel 9200 3950 0    50   Input ~ 0
 _SEL2
 Text GLabel 1850 5000 0    50   Input ~ 0
 _SEL2
@@ -349,41 +345,12 @@ _Enbl2
 Text GLabel 5550 2200 2    50   Input ~ 0
 _Enbl2
 Wire Wire Line
-	8450 4150 8450 5600
-Wire Wire Line
-	8450 5600 8700 5600
-Connection ~ 8700 5600
-Wire Wire Line
-	8700 5600 8700 5150
-Wire Wire Line
-	8400 3850 8450 3850
-Wire Wire Line
-	8450 3600 8800 3600
-Wire Wire Line
-	8800 3600 8800 3950
-Wire Wire Line
-	8800 3950 9200 3950
-Connection ~ 8450 3850
-Wire Wire Line
-	8450 3600 8450 3850
-Wire Wire Line
 	3500 2300 3500 2200
 Wire Wire Line
 	3500 2200 3600 2200
 Connection ~ 3500 2300
 Wire Wire Line
 	3500 2300 3600 2300
-$Comp
-L Device:R R460
-U 1 1 6094BB23
-P 8450 4000
-F 0 "R460" H 8520 4046 50  0000 L CNN
-F 1 "R1" H 8520 3955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8380 4000 50  0001 C CNN
-F 3 "~" H 8450 4000 50  0001 C CNN
-	1    8450 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:DB23_Female_MountingHoles J1
 U 1 1 608E5C01
@@ -674,4 +641,6 @@ NoConn ~ 7850 5100
 NoConn ~ 7850 5200
 NoConn ~ 7850 5300
 NoConn ~ 7850 5400
+Wire Wire Line
+	8700 5150 8700 5700
 $EndSCHEMATC
