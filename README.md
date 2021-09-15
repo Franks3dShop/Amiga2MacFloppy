@@ -27,6 +27,9 @@ Here are some instructions for using the interface…
 
 Figure 3: Dimensions of the Amiga2MacFloppy Board
 
+# PCB Fabrication
+You can get the board from PCBWay or any other manifacturer of your choice with the provided gerber zip files.
+The default settings from PCBWay should be correct, I prefer to get "HASL lead free" boards to save on the environement https://www.pcbway.com/project/shareproject/Amiga2MacFloppy.html
 
 # Assembly instructions
 The PCB fits the 3D printed case provided, You have to center and push the DB23 connectors up to the board, try it first in the case before soldering.
@@ -37,6 +40,5 @@ Rev. 1
 * OpenHardware Logo added
 * Remove the not needed resistor
 * Added DB19 and DB23 reference files for KiCAD
-
-
+* Tested and working
 
