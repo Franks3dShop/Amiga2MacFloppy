@@ -32,13 +32,11 @@ Figure 3: Dimensions of the Amiga2MacFloppy Board
 The PCB fits the 3D printed case provided, You have to center and push the DB23 connectors up to the board, try it first in the case before soldering.
 
 # Revision History
-Rev. 0
-•	Prototype: Fully functional.
 Rev. 1
-•	Board cleaned up
-•	OpenHardware Logo added
-•	Remove the not needed resistor
-•	Added DB19 and DB23 reference files for KiCAD
+* Board cleaned up
+* OpenHardware Logo added
+* Remove the not needed resistor
+* Added DB19 and DB23 reference files for KiCAD
 
 
 
