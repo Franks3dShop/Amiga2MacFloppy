@@ -2,18 +2,26 @@
 Amiga 2 Mac Floppy, reversed engineered A-Max interface
 Module Description
 General Description
-The original A-Max II software allowed to emulate a Macintosh computer on the Amiga and provided an interface to connect an external Apple floppy drive (Figure 1) and use it in emulation. It is also compatible with CrossMAC on the Amiga so you can read Mac floppies on the Amiga.
+The original A-Max II software allowed to emulate a Macintosh computer on the Amiga and provided an interface (Figure 1) to connect an external Apple floppy drive and use it in emulation. It is also compatible with CrossMAC on the Amiga so you can read Mac floppies on the Amiga.
+
+Amiga2MacFloppy (Figure 2) is a recreation of that board without the Mac ROMS that were on the original board, it works all the same with a patch version of A-Max II so that it loads the ROMs from file instead.
+
+It is design to receive the IDC connector directly from a Mac floppy or FloppyEmu. You also have the option to the DB19M to IDC adapter (Figure 3) to connect an external Mac floppy drive.
+
 
 ![Figure 1-Amax II Interface](Rev.1/pictures/A-MaxII.jpg)
+
 Figure 1-Amax II Interface
 
 
-
-![Figure 1-Amax II Interface](Rev.1/pictures/Amiga2MacFloppy.jpg)
+![Figure 2-Amiag2MacFloppy Interface](Rev.1/pictures/Amiga2MacFloppy.jpg)
 
 Figure 2: The Amiga2MacFloppy Interface
 
 
+![Figure 3-DB19M to IDC Adapter](Rev.1/pictures/Adapter_DB19M_to_IDC2x10.jpg)
+
+Figure 3 - Adapter DB19M to IDC 2x10
 
 # Software Configuration
 
@@ -23,9 +31,9 @@ Figure 2: The Amiga2MacFloppy Interface
 Here are some instructions for using the interface…
 
 # Dimensions
-![Figure 1-Amax II Interface](Rev.1/pictures/BoardDimensions.png)
+![Figure 4-Board dimension](Rev.1/pictures/BoardDimensions.png)
 
-Figure 3: Dimensions of the Amiga2MacFloppy Board
+Figure 4: Dimensions of the Amiga2MacFloppy Board
 
 # PCB Fabrication
 You can get the board from PCBWay or any other manifacturer of your choice with the provided gerber zip files.
