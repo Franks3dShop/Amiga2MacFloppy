@@ -54,7 +54,7 @@ Rev. 1
 * Added DB19 and DB23 reference files for KiCAD
 * Tested and working
 
-Copyright 2021 - Frank's 3D Shop
+Copyright 2021 - Frank's 3D Shop & Dr.Dave Diversion's
 
 This source describes Open Hardware and is licensed under the CERN-OHL-P
 v2
