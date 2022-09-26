@@ -1,7 +1,7 @@
 # Amiga2MacFloppy
 Amiga 2 Mac Floppy, reversed engineered A-Max interface
 
-Video of the project from Dr.Dave Diversion's channel, we did this project together:
+Video of the project from Dr. Dave's Diversions channel, we did this project together:
 https://youtu.be/zkYM3wdAgQM?t=42
 
 Module Description
@@ -55,6 +55,6 @@ Rev. 1
 * Tested and working
 
 # LICENCE
-©2021 Frank's 3D Shop & Dr.Dave Diversion's
+©2021 Frank's 3D Shop & Dr. Dave's Diversions
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
