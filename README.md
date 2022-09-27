@@ -78,7 +78,7 @@ Amiga2MacFloppy is known to work with A-Max II software version
 2.5 having the "Fast A-Max" patch and running on Amiga Release
 2.1 system sofware accompanied by a Mac Plus 128K ROM image file,
 and either (a) the FloppyEmu hardware emulator (in Mac floppy mode;
-/not/ HD20 mode), (b) an Apple 3.5 inch double density floppy drive
+*not* HD20 mode), (b) an Apple 3.5 inch double density floppy drive
 (external DB19 connector), or (c) a Cutting Edge branded 3.5 inch
 Mac-compatible double density floppy drive (DB19 connector).
 
