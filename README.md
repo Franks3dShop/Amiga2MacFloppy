@@ -4,7 +4,7 @@ Amiga2MacFloppy, a reversed-engineered A-Max interface
 Video of the project from Dr. Dave's Diversions channel, we did this project together:
 https://youtu.be/zkYM3wdAgQM?t=42
 
-#General Description
+# General Description
 
 The original A-Max II software allowed to emulate a Macintosh computer on the Amiga and provided an interface (Figure 1) to connect an external Apple floppy drive and use it in emulation. It is also compatible with CrossMAC on the Amiga so you can read Mac floppies on the Amiga.
 
