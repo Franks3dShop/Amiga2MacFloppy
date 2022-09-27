@@ -133,9 +133,10 @@ indicate the Mac floppy drive has the Amiga floppy drive number of
 	0000000 7500 0500 1f4d 7281 4000 2a00 7500 0060
 	             ^^^^
 
-For your convenience, we make available two Fast A-Max-compatible ROM
-image files containing Mac Plus 128KB ROMs and configured for either
-of those two options. These are `Mac_ROMs_df1` and `Mac_ROMs_df2`
+For your convenience, we can make available two Fast A-Max-compatible
+ROM image files containing Mac Plus 128KB ROMs and configured
+for either of those two floopy drive chain position options; see
+Contact info [below](#contact). These are `Mac_ROMs_df1` and `Mac_ROMs_df2`
 respectively and you just must copy (or rename) this to a file named
 `Mac_ROMs` before starting A-Max II.
 
@@ -193,6 +194,12 @@ Rev. 1
 * Remove the not needed resistor
 * Added DB19 and DB23 reference files for KiCAD
 * Tested and working
+
+# Contact
+
+Contact Dave via email at the address shared in the
+Dr. Dave's Diversions YouTube channel's "About" info:
+https://www.youtube.com/c/DrDavesDiversions/about
 
 # LICENCE
 ©2021 Frank's 3D Shop & Dr. Dave's Diversions
