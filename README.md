@@ -158,10 +158,10 @@ the new device number/position of the Amiga2MacFloppy.
 # Using A-Max
 
 Most of the use of A-Max is outside the scope of this documentation.
-Once properly configured, however, your Amiga2MacFloppy will behave
-just like a external 800KB drive connected to a Macintosh Plus,
-for instance. You can even boot Macintosh System software from this
-external floppy drive.
+Once properly configured, your Amiga2MacFloppy-connected device will
+behave just like a external 800KB drive connected to a classic Mac.
+You can even boot Macintosh System software from this external
+floppy drive.
 
 In our testing of A-Max II software version 2.5 having the Fast A-Max
 patch, we have found no difference between using Amiga2MacFloppy and
