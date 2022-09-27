@@ -61,7 +61,7 @@ Mac floppy disks and specifying whether Mac HFS files should be
 shown in Workbench having Both Forks, Data Fork, or MacBin Only.
 split resource and forks.
 
-If you do not have CrossMac, you can
+If you do not have CrossMAC, you can
 find it on archive.org in this set of
 [CommodoreAmigaApplications](https://archive.org/details/CommodoreAmigaApplicationsADF).
 
